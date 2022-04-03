@@ -1,0 +1,20 @@
+.rentContainer{
+    margin-top: 35px;
+}
+
+.propertyDetails{
+    margin: 0px;
+}
+
+.propertyDetailBody{
+    color: white;
+    background-color: black;
+}
+
+.compareCard{
+    border-radius: 0px;
+}
+
+.propertyImage{
+    border-radius: 0px;
+}

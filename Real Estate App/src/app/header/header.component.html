@@ -1,0 +1,7 @@
+<nav class="navbarBlack">
+    <a class="navbarBrand">COMPASS</a>
+    <a class="routingMenu buyOption" routerLinkActive="active" routerLink="buy">BUY</a>
+    <a class="routingMenu compareOption" routerLinkActive="active" routerLink="compare">COMPARE</a>
+    <a class="routingMenu compareOption" routerLinkActive="active" routerLink="auth">AUTHENTICATE</a>
+    <a class="logout" *ngIf="isAuthenticated" (click)="onLogout()">LOGOUT</a>
+</nav>

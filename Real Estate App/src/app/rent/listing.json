@@ -1,0 +1,56 @@
+[{
+    "price": "$2,555,000",
+    "address": "405 Hillcrest Road San Carlos, CA 94070",
+    "beds": 4,
+    "baths": 3,
+    "squareFeet": 2283,
+    "imageSrc": "https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1060&q=80"
+  },
+  {
+    "price": "$1,342,000",
+    "address": "1125 Grizzly Peak Boulevard, Berkley, CA 94708",
+    "beds": 2,
+    "baths": 2,
+    "squareFeet": 1237,
+    "imageSrc": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1046&q=80"
+  },
+  {
+    "price": "$4,785,000",
+    "address": "12940 Brandvyne Drive, Saratoga, CA 95070",
+    "beds": 5,
+    "baths": 3,
+    "squareFeet": 4567,
+    "imageSrc": "https://images.unsplash.com/photo-1416331108676-a22ccb276e35?ixlib=rb-1.2.1&auto=format&fit=crop&w=1047&q=80"
+  },
+  {
+    "price": "$1,985,000",
+    "address": "4507 Edgemont Drive, Austin, TX 78731",
+    "beds": 4,
+    "baths": 3,
+    "squareFeet": 3490,
+    "imageSrc": "https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+  },
+  {
+    "price": "$8,905,000",
+    "address": "66 Lindel Street, Wellesy, MA 02482",
+    "beds": 5,
+    "baths": 4,
+    "squareFeet": 3289,
+    "imageSrc": "https://images.unsplash.com/photo-1592101631804-3263b8dc999f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "price": "$6,356,000",
+    "address": "4507 Edgemont Drive, Austin, TX 78731",
+    "beds": 5,
+    "baths": 3,
+    "squareFeet": 2568,
+    "imageSrc": "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+  },
+  {
+    "price": "$1,342,000",
+    "address": "1125 Grizzly Peak Boulevard, Berkley, CA 94708",
+    "beds": 2,
+    "baths": 2,
+    "squareFeet": 1237,
+    "imageSrc": "https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1060&q=80"
+  }]

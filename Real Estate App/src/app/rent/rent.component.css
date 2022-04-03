@@ -1,0 +1,34 @@
+.imageCard{
+    border-radius: 0%;
+    border: black 1px solid;
+}
+
+.rentContainer{
+    margin-top: 35px;
+}
+
+.card-img-overlay{
+    top: initial !important;
+}
+
+.price{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.propertyImage{
+    border-radius: 0px;
+}
+
+.loadingSpinner{
+    position: fixed;
+    left: 50%;
+    top: 35%;
+}
+
+.errorMessage{
+    position: fixed;
+    left: 36%;
+    top: 40%;
+    border-radius: 0px !important;
+}

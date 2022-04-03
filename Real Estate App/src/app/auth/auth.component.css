@@ -1,0 +1,32 @@
+.authForm{
+    position: relative;
+    margin-left: 28%;
+    top: 40%;
+}
+
+.formInput{
+    border: 2px black solid;
+    border-radius: 0px;
+    color: blue;
+}
+
+.formLabel{
+    color: black;
+    font-weight: 500;
+}
+
+.loginSignupButton{
+    background-color: white;
+    color: blue;
+    border: 2px solid black;
+    font-size: smaller;
+    border-radius: 0%;
+}
+
+.switchButton{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    font-size: smaller;
+    border-radius: 0%;
+}

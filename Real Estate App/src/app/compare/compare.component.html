@@ -1,0 +1,17 @@
+<div class="container rentContainer">
+    <h2 style="color: black;">COMPARE</h2>
+    <div class="row">
+      <div style="margin-top: 25px;" class="col-4" *ngFor="let listing of compareListing">
+        <div class="card compareCard">
+            <img [src]="listing.imageSrc" class="card-img-top propertyImage" alt="...">
+            <div class="card-body propertyDetailBody">
+              <p class="propertyDetails">{{ listing.price }}</p>
+              <p class="propertyDetails">{{ listing.squareFeet }} Sq. Ft</p>
+              <p class="propertyDetails">{{ listing.beds }} Beds</p>
+              <p class="propertyDetails">{{ listing.baths }} Baths</p>
+              <p class="propertyDetails">{{ listing.address }}</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,22 @@
+<div class="container rentContainer">
+    <h2 style="color: black;">EXPLORE</h2>
+    <div class="row">
+      <app-spinner *ngIf="isFetchingData && !errorHasOccured" class="loadingSpinner" ></app-spinner>
+      <div class="alert alert-dark errorMessage" *ngIf="errorHasOccured">
+        <h2>An Error has occured!</h2>
+        <p>{{ errorHasOccured }}</p>
+      </div>
+        <div style="margin-top: 25px;" class="col-sm-4" *ngFor="let listing of listings; let i = index;">
+            <div  class="card bg-dark text-white imageCard">
+                <img [src]="listing.imageSrc" class="card-img propertyImage" alt="listingImage">
+                <div class="card-img-overlay">
+                    <p class="card-text price">{{ listing.price }}</p>
+                    <p class="card-text">{{ listing.address }}</p>
+                </div>
+            </div>
+            <div style="background-color: black;" class="card-body">
+                <button style="border: 1px white solid; color: white; border-radius: 0px; font-size: small;" class="btn" (click)="addPropertyForCompare(i)">Compare</button>
+            </div>
+          </div>
+    </div>
+  </div>
